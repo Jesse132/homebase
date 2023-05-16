@@ -1,4 +1,3 @@
-import React from 'react'
 import { BsLinkedin} from 'react-icons/bs';
 import { SelectedPage } from '@/shared/types';
 

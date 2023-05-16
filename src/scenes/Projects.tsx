@@ -1,14 +1,8 @@
-import React from 'react'
-import {BsGithub, BsLinkedin} from 'react-icons/bs';
+import {BsGithub} from 'react-icons/bs';
 import {DiCodeigniter} from 'react-icons/di';
-import { SelectedPage } from '@/shared/types';
 
-type Props = {
-  setSelectedPage: (value: SelectedPage) => void;
 
-}
-
-function Projects({setSelectedPage}: Props) {
+function Projects() {
   return (
     <section id="projects">
       <div className="flex justify-center text-2xl">Projects</div>
