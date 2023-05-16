@@ -4,7 +4,6 @@ import { SelectedPage } from './shared/types';
 import Home from './scenes/Home';
 import Projects from './scenes/Projects';
 import ContactMe from './scenes/ContactMe';
-import { RocketLaunchIcon } from '@heroicons/react/20/solid';
 
 function App() {
   const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home);
