@@ -1,11 +1,6 @@
 import { BsLinkedin} from 'react-icons/bs';
-import { SelectedPage } from '@/shared/types';
 
-type Props = {
-    setSelectedPage: (value: SelectedPage) => void
-}
-
-function ContactMe({setSelectedPage}: Props) {
+function ContactMe() {
   return (
     <section id="contactme"
     className="flex flex-col items-center justify-center mt-20 mx-auto gap-5">

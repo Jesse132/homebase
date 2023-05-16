@@ -1,15 +1,8 @@
-import React from 'react';
-import { SelectedPage } from '@/shared/types';
-import GeneralButton from '@/shared/GeneralButton';
 import mephoto from'@/images/mephoto.png';
 import {FaTools} from 'react-icons/fa';
 import {AiFillSmile} from 'react-icons/ai';
 
-type Props = {
-    setSelectedPage: (value: SelectedPage) => void;
-}
-
-const Home = ({setSelectedPage}: Props) => {
+const Home = () => {
   return (
     <section id="home"
     className="gap-16 py-10 md:h-full md:pb-0">
