@@ -27,9 +27,9 @@ useEffect(()=>{
       isTopOfPage={isTopOfPage}
        selectedPage={selectedPage}
        setSelectedPage={setSelectedPage}/>
-        <Home setSelectedPage={setSelectedPage}/>
-        <Projects setSelectedPage={setSelectedPage}/>
-        <ContactMe setSelectedPage={setSelectedPage}/>
+        <Home/>
+        <Projects/>
+        <ContactMe/>
     </div>
   )
 }
