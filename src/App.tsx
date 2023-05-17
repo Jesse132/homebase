@@ -18,11 +18,12 @@ useEffect(()=>{
     if (window.scrollY !==0) setIsTopOfPage(false);
   }
   window.addEventListener("scroll", handleScroll);
-  return () => window.removeEventListener("scroll", handleScroll)
+  return () => {window.removeEventListener("scroll", handleScroll)}
 }, []);
 
   return (
-    <div className="app bg-gray-20">
+    <div className="app">
+      <div className="bg-slate-200">
       <Navbar 
       isTopOfPage={isTopOfPage}
        selectedPage={selectedPage}
@@ -30,6 +31,7 @@ useEffect(()=>{
         <Home/>
         <Projects/>
         <ContactMe/>
+        </div>
     </div>
   )
 }
