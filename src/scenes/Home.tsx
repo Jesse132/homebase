@@ -7,7 +7,7 @@ import { useSpring, animated, config } from 'react-spring';
 const Home = () => {
 
   const Welcome = (delayTime: number, msg: string) => {
-    const [flip, set] = useState(false)
+    const [flip] = useState(false)
     const props = useSpring({
       to: { opacity: 1 },
       from: { opacity: 0 },
