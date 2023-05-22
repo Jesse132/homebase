@@ -4,11 +4,11 @@ import {DiCodeigniter} from 'react-icons/di';
 
 function Projects() {
   return (
-    <section className="mt-44" id="projects">
+    <section className="md:mt-44 mt-20" id="projects">
       <div className="flex justify-center text-2xl"> <FaMobileAlt/> &nbsp; &nbsp; Projects &nbsp; &nbsp; <FaLaptopCode/></div>
-      <div className=" mt-10 mx-auto w-5/6 items-center justify-center md:flex space-x-20 md:h-5/6">
+      <div className="mt-10 mx-auto md:w-5/6 w-3/5 items-center justify-center md:flex md:space-x-20 md:h-5/6 md:space-y-0 space-y-10">
 
-    <div className="flex-col">
+    <div className="flex-col ">
     <b className="flex justify-center">Tetlier - E-commerce Application (SERN Stack)</b>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/ZCVLZYF9RuU" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
     <p>A e-commerce attire website that features a product overview, ability to add products to a cart, a reviews section, and a question-and-answers section. The information is pulled from an API database.</p>
@@ -33,7 +33,7 @@ function Projects() {
 
     <h2 className="flex justify-center mt-20 text-2xl"> <DiCodeigniter className="text-orange-500"/> &nbsp;&nbsp;Upcoming Projects &nbsp;&nbsp;<DiCodeigniter className="text-orange-500"/></h2>
     
-    <div  className="mt-10 mx-auto w-1/2 items-center justify-center md:flex space-x-20 md:h-1/2">
+    <div  className="mt-10 mx-auto md:w-5/6 w-3/5 items-center justify-center md:flex md:space-x-20 md:h-1/2 md:space-y-0 space-y-10">
       <div className="flex-col">
     <b className="flex justify-center">Endless Adventure (React Native)</b>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/HYi96k_4Kto" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
